@@ -1,0 +1,34 @@
+documents.version :
+0 => copie
+1 => original
+
+documents.type :
+0 => obligatoire
+1 => copie en attente de l'obligatoire
+2 => copie accepté
+3 => optionel
+
+files.statut :
+0 => en attente
+1 => en stock
+2 => Livré
+3 => annulé
+
+movements.type :
+0 => entrant
+1 => en stock
+2 => livré
+3 => annulé
+
+files.statut :
+0 => en cours
+1 => en stock
+2 => Terminé 
+3 => Annulé
+ 
+ OutputSets.Statut :
+ 0 => en cours
+ 1 => Effectué / Livré
+ 2 => Annulé 
+ 3 => Validé Niv1
+            

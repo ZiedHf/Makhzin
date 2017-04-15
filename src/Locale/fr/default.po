@@ -1,0 +1,401 @@
+msgid "My name is"
+msgstr "Je m'appelle"
+
+msgid "The category could not be saved. Please, try again."
+msgstr "La catégorie n'a pas été enregistrée. Merci de réessayer encore."
+
+msgid "The category could not be saved. Please, try again."
+msgstr "La catégorie n'a pas été enregistrée. Merci de réessayer encore."
+
+msgid "The category has been saved."
+msgstr "La catégorie a été enregistrée."
+
+msgid "The category has been deleted."
+msgstr "La catégorie a été supprimée"
+
+msgid "The category could not be deleted. Please, try again."
+msgstr "La catégorie n'a pas été supprimé. Merci de réessayer encore."
+
+msgid "The product has been saved."
+msgstr "Le produit a été enregistré."
+
+msgid "The product could not be saved. Please, try again."
+msgstr "Le produit n'a pas été enregistré. Merci de réessayer encore."
+
+msgid "The product has been deleted."
+msgstr "Le produit a été supprimé."
+
+msgid "The product could not be deleted. Please, try again."
+msgstr "Le produit n'a pas été supprimé. Merci de réessayer encore."
+
+msgid "previous"
+msgstr "précédent"
+
+msgid "next"
+msgstr "suivant"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "NgpCode"
+msgstr "NGP"
+
+msgid "ProductCode"
+msgstr "Code"
+
+msgid "BarCode"
+msgstr "Code à barre"
+
+msgid "Unit"
+msgstr "Unité"
+
+msgid "Tolerance"
+msgstr "Tolérance"
+
+msgid "UnitQte"
+msgstr "UnitQte"
+
+msgid "Approved"
+msgstr "Approuvé"
+
+msgid "Created"
+msgstr "Crée le"
+
+msgid "Modified"
+msgstr "Modifié le"
+
+msgid "Amount"
+msgstr "En stock"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Categories"
+msgstr "Catégories"
+
+msgid "VideM"
+msgstr "Aucun {0} à afficher"
+msgid "VidePrint"
+msgstr "Aucun {0}"
+msgid "VideF"
+msgstr "Aucune {0} à afficher"
+
+msgid "Related Outputsets"
+msgstr "Bons à lever"
+
+msgid "Related Products"
+msgstr "Produits"
+
+msgid "Related Lots"
+msgstr "Lots"
+
+msgid "The client has been saved."
+msgstr "Le client a été enregistré."
+
+msgid "The client could not be saved. Please, try again."
+msgstr "Le client n'a pas été enregistré. Merci de réessayer encore."
+
+msgid "could not be saved. Please, try again."
+msgstr "{0} n'a pas été enregistré{1}. Merci de réessayer encore."
+
+msgid "has been saved."
+msgstr "{0} a été enregistré{1}."
+
+msgid "has been deleted."
+msgstr "{0} a été supprimé{1}."
+
+msgid "could not be deleted. Please, try again."
+msgstr "{0} n'a pas été supprimé{1}. Merci de réessayer encore."
+
+msgid "Adress"
+msgstr "Adresse"
+
+msgid "Website"
+msgstr "Site web"
+
+msgid "Number"
+msgstr "Numéro"
+
+msgid "StartDate"
+msgstr "Date début"
+
+msgid "Canceled"
+msgstr "Annulé"
+
+msgid "Client Id"
+msgstr "Client"
+
+msgid "Deadline"
+msgstr "Dernier délai"
+
+msgid "ActualQte"
+msgstr "Quantité"
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "January"
+msgstr "Janvier"
+msgid "February"
+msgstr "Février"
+msgid "March"
+msgstr "Mars"
+msgid "April"
+msgstr "Avril"
+msgid "May"
+msgstr "Mai"
+msgid "June"
+msgstr "Juin"
+msgid "July"
+msgstr "Juillet"
+msgid "August"
+msgstr "Août"
+msgid "September"
+msgstr "Septembre"
+msgid "October"
+msgstr "Octobre"
+msgid "November"
+msgstr "Novembre"
+msgid "December"
+msgstr "Décembre"
+
+msgid "Vide"
+msgstr "Aucun{0} {1} à afficher"
+
+msgid "subjectToQuota"
+msgstr "Illimité"
+msgid "SubjectToQuota"
+msgstr "Illimité"
+
+msgid "expectedQte"
+msgstr "Quantité"
+
+msgid "Related Outputs"
+msgstr "Bons de sortie"
+
+msgid "Qte"
+msgstr "Quantité"
+
+msgid "File Id"
+msgstr "Dossier"
+
+msgid "OutpuSet Id"
+msgstr "Groupement des bons de sortie"
+
+msgid "ArrivalDate"
+msgstr "Date d'arrivage"
+msgid "Deadline"
+msgstr "Dernier délai"
+msgid "ExpectedQte"
+msgstr "Quantité"
+msgid "ActualQte"
+msgstr "Quantité arrivée"
+msgid "File"
+msgstr "Dossier"
+msgid "Input"
+msgstr "Bon d'entrée"
+
+msgid "Edit Outputset"
+msgstr "Modifier le groupement des bons de sortie"
+
+msgid "Delete"
+msgstr "Supprimer"
+msgid "List Outputsets"
+msgstr "Liste bons d'entrée"
+msgid "List Files"
+msgstr "Liste dossiers"
+msgid "New File"
+msgstr "Nouveau dossier"
+
+msgid "New Zone"
+msgstr "Nouvelle zone"
+msgid "Add Zone"
+msgstr "Ajouter zone"
+msgid "List Zones"
+msgstr "Liste zones"
+msgid "Edit Zone"
+msgstr "Modifier Zone"
+msgid "Delete Zone"
+msgstr "Supprimer Zone"
+
+msgid "Product Id"
+msgstr "Produit"
+
+msgid "Edit User"
+msgstr "Modifier utilisateur"
+
+msgid "Delete User"
+msgstr "Supprimer utilisateur"
+
+msgid "List Users"
+msgstr "Liste des utilisateurs"
+
+msgid "New User"
+msgstr "Nouveau utilisateur"
+
+msgid "Username"
+msgstr "Nom"
+msgid "Role"
+msgstr "Rôle"
+msgid "Products"
+msgstr "Produits"
+msgid "Providers"
+msgstr "Fournisseurs"
+msgid "Movements"
+msgstr "Mouvements"
+msgid "Files"
+msgstr "Dossiers"
+msgid "Required Docs"
+msgstr "Types Documents"
+msgid "Users"
+msgstr "Utilisateurs"
+msgid "Inputs"
+msgstr "Bons d'entrée"
+msgid "outputSets"
+msgstr "Bons à lever"
+msgid "Outputs Sets"
+msgstr "Bons à lever"
+msgid "Outputs"
+msgstr "Bons de sortie"
+msgid "Password"
+msgstr "Mot de passe"
+msgid "Edit User password"
+msgstr "Changer votre mot de passe"
+msgid "This field cannot be left empty"
+msgstr "Ce champ est requis."
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+msgid "Unable to add the user."
+msgstr "Impossible d'ajouter cet utilisateur. Merci de vérifier les données."
+
+msgid "Please enter your username and password"
+msgstr "Veuillez entrer votre nom et mot de passe"
+
+msgid "The provided value is invalid"
+msgstr "Valeur invalide"
+
+msgid "Invalid username or password, try again"
+msgstr "Nom d'utilisateur ou mot de passe invalide"
+
+msgid "Unable to add the user."
+msgstr "Impossible d'ajouter l'utilisateur."
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Vous êtes sur le point de supprimer cette ligne."
+
+msgid "List Lots"
+msgstr "Liste des lots"
+
+msgid "Considered"
+msgstr "Considéré"
+
+msgid "created_by"
+msgstr "Crée par"
+
+msgid "Productstates"
+msgstr "États des produits"
+
+msgid "New Productstate"
+msgstr "Nouveau état"
+
+msgid "List Productstates"
+msgstr "Liste des états"
+
+msgid "Edit Productstate"
+msgstr "Modifier un état"
+
+msgid "Add Productstate"
+msgstr "Ajouter un état"
+
+msgid "Add Packaging"
+msgstr "Ajouter un emballage"
+
+msgid "List Packagings"
+msgstr "Liste des emballages"
+
+msgid "New Packaging"
+msgstr "Nouveau emballage"
+
+msgid "Packagings"
+msgstr "Emballages"
+
+msgid "Packaging"
+msgstr "Emballage"
+
+msgid "New Carrier"
+msgstr "Nouveau transporteur"
+
+msgid "New Carrier"
+msgstr "Nouveau transporteur"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Carriers"
+msgstr "Transporteurs"
+
+msgid "createdBy"
+msgstr "Crée par"
+
+msgid "created_by"
+msgstr "Crée par"
+
+msgid "Created By"
+msgstr "Crée par"
+
+msgid "CreatedBy"
+msgstr "Crée par"
+
+msgid "Created_by"
+msgstr "Crée par"
+
+msgid "Created_By"
+msgstr "Crée par"
+
+msgid "Modified By"
+msgstr "Modifié par"
+
+msgid "List Carriers"
+msgstr "Liste des transporteurs"
+
+msgid "Add Carrier"
+msgstr "Ajouter un transporteur"
+
+msgid "Edit Carrier"
+msgstr "Modifier le transporteur"
+
+msgid "Related Inputs"
+msgstr "Bons d'entrée"
+
+msgid "Related Removalvouchers"
+msgstr "Bons à enlever"
+
+msgid "Provider"
+msgid "Fournisseur"
+
+msgid "Removalvouchers"
+msgstr "Bons à enlever"
+
+msgid "Considered"
+msgstr "Considéré"
+
+msgid "deadlineConsumption"
+msgstr "DF Consommation"
+
+msgid "of"
+msgstr "sur"
+
+msgid "Edit File"
+msgstr "Modifier dossier"
+
+msgid "Edit Packaging"
+msgstr "Modifier emballage"
+
+msgid "Packaging type"
+msgstr "Type d'emballage"
+
+msgid "Packaging weight"
+msgstr "Poids"

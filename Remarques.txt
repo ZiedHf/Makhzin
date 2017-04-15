@@ -1,0 +1,29 @@
+Remarque :
+
+I/ Catégorie : 
+1- Page ajouter => Subject to Quota et Quota Obligatoire !
+2- 
+
+II/ Fournisseur :
+1- View section dossier
+
+III/ Lots :
+1- View Lots
+
+IV/ bon à enlever :
+1- supp (restaurer les qte des lots) et modif ds view file
+
+V/ Tous
+1- Liens cliquables.
+
+VI/ Required File :
+1- View
+
+VII/ File :
+1- Index = lorsque on supprime un dossier on dois supp tous les lots.
+
+IIX/ OutputSets :
+1- Bouton imprimé doit s'affiche aprés la validation
+
+IX/ add document :
+1- Le menu (horizontal) de page est dans un autre layout, dupliqué, il fallait mieux de le mettre dans un seul fichier.   

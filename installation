@@ -1,0 +1,5 @@
+- upload sur le serveur
+- Création de la base de données et l'upload de fichier .sql
+- login : superadmin .. password : superadmin
+- Modification du fichier app, bootstrap ... et les variables globales
+- Vérif de l'upload et et le unlink des doc (add, delete ...)

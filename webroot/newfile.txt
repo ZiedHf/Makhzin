@@ -1,0 +1,38 @@
+Array
+(
+    [0] => App\Model\Entity\Association Object
+        (
+            [id] => 36
+            [category_id] => 36
+            [product_id] => 49
+            [is_considered] => 1
+            [[new]] => 
+            [[accessible]] => Array
+                (
+                    [*] => 1
+                )
+
+            [[dirty]] => Array
+                (
+                )
+
+            [[original]] => Array
+                (
+                )
+
+            [[virtual]] => Array
+                (
+                )
+
+            [[errors]] => Array
+                (
+                )
+
+            [[invalid]] => Array
+                (
+                )
+
+            [[repository]] => Associations
+        )
+
+)
