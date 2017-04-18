@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'Makhzin';
+$cakeDescription = APP_NAME;
 ?>
 <!DOCTYPE html>
 <html>
@@ -60,7 +60,7 @@ $cakeDescription = 'Makhzin';
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <?= $this->Html->link('<i class="fa fa-home" aria-hidden="true"></i> Makhzin', ['controller' => 'Pages', 'action' => 'display'], ['class' =>'navbar-brand', 'escape' => false]) ?>
+              <?= $this->Html->link('<i class="fa fa-home" aria-hidden="true"></i> '.APP_NAME, ['controller' => 'Pages', 'action' => 'display'], ['class' =>'navbar-brand', 'escape' => false]) ?>
             </div>
             
             <div class="collapse navbar-collapse" id="navbar-collapse-1">

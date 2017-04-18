@@ -2,7 +2,7 @@
 <div id="bonAlever">    
     <div class="well-print well well-md text-center">
         <span class="pull-right">Date groupement des bons de sortie : <?=$outputset->date->format('d-m-Y')?></span>
-        <h3 class="">Palliser international</h3>
+        <h3 class=""><?=COMPANY_NAME?></h3>
         <h5>Groupement des bons de sortie - <?=$outputset->file->number?></h5>
     </div>
     <div class="col-md-12 display-flex">
@@ -35,9 +35,9 @@
             </div>
         </div>
         <div class="panel panel-default col-xs-5 col-sm-5">
-            <div class="panel-heading">Palliser International</div>
+            <div class="panel-heading"><?=COMPANY_NAME?></div>
             <div class="panel-body">
-                <div class="well well-sm">61 Rue Mohamed Manachou <br><br> 1089 Montfleury - Tunis<br><br>Tél : 71.483.189</div>
+                <div class="well well-sm"><?=COMPANY_STREET1?> <br><br> <?=COMPANY_STREET2?><br><br>Tél : <?=COMPANY_TEL?></div>
             </div>
         </div>
     </div>
@@ -97,11 +97,11 @@
     </div>
     <div class="content">
         <div class="col-xs-4 col-sm-4">
-            Tél : 71.483.189<br>
-            Fax : 71.483.160<br>
+            Tél : <?=COMPANY_TEL?><br>
+            Fax : <?=COMPANY_FAX?><br>
         </div>
-        <div class="col-xs-4 col-sm-4">Commerce International</div>
-        <div class="col-xs-4 col-sm-4">Email : palliserinter@gmail.com</div>
+        <div class="col-xs-4 col-sm-4"><?=COMPANY_SLOGAN?></div>
+        <div class="col-xs-4 col-sm-4">Email : <?=COMPANY_EMAIL?></div>
     </div>
 </div>
 <?php //echo $text;

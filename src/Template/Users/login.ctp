@@ -8,14 +8,14 @@
         <div class="jumbotronHeader jumbotron">
             <div class="container">
                 <div class="col-md-5"><?= $this->Html->image('logos/logo-tn.png', ['class' => 'logo-tn']); ?></div>
-                <div class="col-md-2"><h2 class="nameApp">Makhzin<sub class="versionApp">1.1</sub></h2></div>
+                <div class="col-md-2"><h2 class="nameApp"><?=APP_NAME?><sub class="versionApp"><?=APP_VERSION?></sub></h2></div>
                 <!--div class="col-md-2"></?= $this->Html->image('logos/logo-palliserIntr.png', ['class' => 'logo-palliser']); ?></div-->
                 <div class="col-md-5"><?= $this->Html->image('logos/logo-douane.png', ['class' => 'logo-douane pull-right']); ?></div>
             </div>
         </div>
     </div>
     <fieldset class="loginFieldset">
-        <div class="titre-login"><?= $this->Html->image('logos/logo-palliserIntr.png', ['class' => 'logo-palliser']); ?></div>
+        <div class="titre-login"><?= $this->Html->image(COMPANY_LOGO, ['class' => 'logo-palliser']); ?></div>
         
         <div class="login">
         <h1><?= __('Please enter your username and password') ?></h1>

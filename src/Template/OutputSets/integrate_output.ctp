@@ -10,7 +10,7 @@
 <div class="removalvouchers view large-9 medium-8 columns content">
     <div id="bonAlever">    
         <div class="well-print well well-md text-center">
-            <h3 class="">Palliser international</h3>
+            <h3 class=""><?=COMPANY_NAME?></h3>
             <h5>Bon à enlever</h5>
         </div>
 
@@ -35,9 +35,9 @@
                 </div>
             </div>
             <div class="panel panel-default col-xs-6 col-sm-6">
-                <div class="panel-heading">Palliser International</div>
+                <div class="panel-heading"><?=COMPANY_NAME?></div>
                 <div class="panel-body">
-                    <div class="well well-sm">61 Rue Mohamed Manachou <br><br> 1089 Montfleury - Tunis<br><br>Tél : 71.483.189</div>
+                    <div class="well well-sm"><?=COMPANY_STREET1?> <br><br> <?=COMPANY_STREET2?><br><br>Tél : <?=COMPANY_TEL?></div>
                 </div>
             </div>
         </div>

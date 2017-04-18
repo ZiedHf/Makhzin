@@ -224,7 +224,7 @@ Type::build('datetime')
 
 Plugin::load('Utils');
 
-define("FULL_URL", "C:".DS."xampp".DS."htdocs".DS."makhzin".DS);
+//define("FULL_URL", "C:".DS."xampp".DS."htdocs".DS."makhzin".DS);
 //define("FULL_URL", "khidma.tn/dsd_demo/");
 define("UPLOAD_FILE", "/webroot/uploads/");
 //Var dans le fichier JS : Ajax. Nom du dossier(s) sous Xampp ou sur serveur, vide s'elle est sous racine.
@@ -234,6 +234,31 @@ define("RACINE_AJAX", "/makhzin/");
 //stat
 define("STATS_OUTPUTSETS", serialize(array('En cours', 'Livré', 'Annulé', 'Validé')));
 define("STATS_FILES", serialize(array('En cours', 'En stock', 'Livré', 'Annulé')));
+
+//APP CONSTANT Palliser international
+/*
+define("APP_NAME", "Makhzin");
+define("APP_VERSION", "1.0");
+define("COMPANY_NAME", "Palliser International");
+ * define("COMPANY_LOGO", "logos/logo-palliserIntr.png");
+define("COMPANY_TEL", "71.483.189");
+define("COMPANY_FAX", "71.483.160");
+define("COMPANY_EMAIL", "palliserinter@gmail.com");
+define("COMPANY_STREET1", "61 Rue Mohamed Manachou");
+define("COMPANY_STREET2", "1089 Montfleury - Tunis");
+define("COMPANY_SLOGAN", "Commerce International");
+*/
+//APP CONSTANT Demo
+define("APP_NAME", "Makhzin");
+define("APP_VERSION", "1.0");
+define("COMPANY_NAME", "Company International");
+define("COMPANY_LOGO", "logos/logo-company.png");
+define("COMPANY_TEL", "70.000.000");
+define("COMPANY_FAX", "70.000.000");
+define("COMPANY_EMAIL", "comapnyinter@demo.mail");
+define("COMPANY_STREET1", "77 Rue N°1545");
+define("COMPANY_STREET2", "1000 Tunis - Tunisie");
+define("COMPANY_SLOGAN", "Commerce Internationalle");
 
 //pdf
 Configure::write('CakePdf.binary', '/webroot/wkhtmltopdf/wkhtmltopdf.exe');

@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'Makhzin';
+$cakeDescription = APP_NAME;
 ?>
 <!DOCTYPE html>
 <html>
