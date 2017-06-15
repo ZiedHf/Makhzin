@@ -1,0 +1,30 @@
+2017-06-15 08:59:36 Notice: Notice (8): Undefined offset: 0 in [C:\xampp\htdocs\makhzin\src\Controller\LotsController.php, line 328]
+Request URL: /makhzin/Lots/traitementAjaxQuota/1/
+Referer URL: http://localhost/makhzin/lots/add/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\LotsController::getStockByIdProduct() - APP/Controller\LotsController.php, line 328
+App\Controller\LotsController::traitementAjaxQuota() - APP/Controller\LotsController.php, line 463
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2017-06-15 08:59:52 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\makhzin\src\Template\Products\index.ctp, line 51]
+Request URL: /makhzin/products
+Referer URL: http://localhost/makhzin/products/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Products\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+

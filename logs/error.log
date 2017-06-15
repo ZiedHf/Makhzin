@@ -1,0 +1,17 @@
+2017-06-15 07:39:37 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\makhzin\vendor\composer\ClassLoader.php, line 354]
+Request URL: /makhzin/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 97
+[main] - [internal], line ??
+
+
+
+2017-06-15 07:39:40 Error: [Cake\Error\FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /makhzin/
+Stack Trace:
+#0 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(97): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 354)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

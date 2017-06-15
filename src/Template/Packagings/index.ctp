@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="panel-body">
-            <table cellpadding="0" cellspacing="0" class="tab_width80">
+            <table cellpadding="0" cellspacing="0" class="tab_width80 block_table table table-responsive">
                 <thead>
                     <tr>
                         <th class="widthTh10">N°</th>

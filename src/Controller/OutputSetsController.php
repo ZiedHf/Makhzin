@@ -254,7 +254,7 @@ class OutputSetsController extends AppController
     
     public function validerOutputSets($id = null , $id_rv = null, $flash = true){
         if($id == null) {
-            throw new NotFoundException(__('Le groupement des bons de sortie invalide !'));
+            throw new NotFoundException(__('Le groupement des bons de sortie est invalide !'));
         }
         $this->loadModel('OutputSets');
         $outputSetsTable = TableRegistry::get('OutputSets');
@@ -340,7 +340,7 @@ class OutputSetsController extends AppController
             return $q->where(['Lots.file_id' => $idFile]);
         })->toArray();
         */
-        if(in_array('0', $outputset))
+        if((in_array('0', $outputset))||(in_array('3', $outputset)))
             return false;
         else
             return true;

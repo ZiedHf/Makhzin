@@ -11,7 +11,7 @@
             <h3 class="indexH3Inline2"><?= __('Movements') ?></h3>
         </div>
         <div class="panel-body">
-            <table cellpadding="0" cellspacing="0">
+            <table cellpadding="0" cellspacing="0" class="block_table table table-responsive">
                 <thead>
                     <tr>
                         <th class="widthTh5">N°</th>

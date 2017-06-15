@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="8">
         <file>
-            <url>src/Template/Files/view.ctp</url>
-            <bookmark id="2">
-                <name/>
-                <line>257</line>
-                <key/>
-            </bookmark>
-            <bookmark id="3">
-                <name/>
-                <line>307</line>
-                <key/>
-            </bookmark>
-        </file>
-        <file>
             <url>src/Controller/CategoriesController.php</url>
             <bookmark id="8">
                 <name/>
@@ -24,6 +11,19 @@
             <bookmark id="7">
                 <name/>
                 <line>527</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/Template/Files/view.ctp</url>
+            <bookmark id="2">
+                <name/>
+                <line>257</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>307</line>
                 <key/>
             </bookmark>
         </file>

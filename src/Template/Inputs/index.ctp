@@ -12,7 +12,7 @@
 </nav>
 <div class="inputs index large-9 medium-8 columns content">
     <h3><?= __('Inputs') ?></h3>
-    <table cellpadding="0" cellspacing="0">
+    <table cellpadding="0" cellspacing="0" class="block_table table table-responsive">
         <thead>
             <tr>
                 <th><?= $this->Paginator->sort('id') ?></th>
