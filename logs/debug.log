@@ -28,3 +28,32 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2017-06-15 10:38:33 Notice: Notice (8): Undefined variable: infoCategs in [C:\xampp\htdocs\makhzin\src\Controller\CategoriesController.php, line 70]
+Request URL: /makhzin/categories
+Referer URL: http://localhost/makhzin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\CategoriesController::index() - APP/Controller\CategoriesController.php, line 70
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2017-06-15 11:54:22 Notice: Notice (8): Undefined variable: categWithoutQuota in [C:\xampp\htdocs\makhzin\src\Template\Products\edit.ctp, line 106]
+Request URL: /makhzin/products/edit/3
+Referer URL: http://localhost/makhzin/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Products\edit.ctp, line 106
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+

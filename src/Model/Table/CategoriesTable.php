@@ -78,7 +78,8 @@ class CategoriesTable extends Table
                 'message' => 'Le nom ne peut pas dépasser 255 caractères',
             ]])
             ->notEmpty('name');
-        
+        $validator
+            ->requirePresence('quota');
         $validator
             ->allowEmpty('description_categ')
             ->add('desc', [

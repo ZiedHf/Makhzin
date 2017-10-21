@@ -450,7 +450,12 @@ div.container-fluid.clearfix div.users.form form div.jumbotronHeader{
 h2.nameApp{font-family: "Times New Roman", Georgia, Serif;}
 h2.nameApp sub.versionApp{font-size: 15px;}
 
-table.block_table{
-    display: block !important;
-    white-space:nowrap;
+@media screen and (max-width: 1400px){
+    table.block_table{
+        display: block !important;
+        width: 100%;
+        white-space:nowrap;
+    }
 }
+
+

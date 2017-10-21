@@ -15,3 +15,45 @@ Stack Trace:
 #2 {main}
 
 
+2017-06-15 10:39:52 Error: [RuntimeException] Table "App\Model\Table\CategoriesTable" is not associated with "count"
+Request URL: /makhzin/categories
+Referer URL: http://localhost/makhzin/
+Stack Trace:
+#0 C:\xampp\htdocs\makhzin\src\Controller\CategoriesController.php(65): Cake\ORM\Table->__get('count')
+#1 [internal function]: App\Controller\CategoriesController->index()
+#2 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CategoriesController))
+#5 C:\xampp\htdocs\makhzin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2017-06-15 10:39:59 Error: [BadMethodCallException] Unknown method "count"
+Request URL: /makhzin/categories
+Referer URL: http://localhost/makhzin/
+Stack Trace:
+#0 C:\xampp\htdocs\makhzin\src\Controller\CategoriesController.php(65): Cake\ORM\Table->__call('count', Array)
+#1 [internal function]: App\Controller\CategoriesController->index()
+#2 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\makhzin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CategoriesController))
+#5 C:\xampp\htdocs\makhzin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2017-06-15 11:54:22 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\makhzin\src\Template\Products\edit.ctp, line 106]
+Request URL: /makhzin/products/edit/3
+Referer URL: http://localhost/makhzin/products
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Products\edit.ctp, line 106
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 36
+
+
+

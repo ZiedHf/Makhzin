@@ -61,20 +61,23 @@ class CategoriesController extends AppController
         $categories = $this->paginate($this->Categories);
         $this->loadModel('Dependencies');
         //recupérer les quota des categ et leurs stocks
-        if(isset($categories)){
+        if($this->Categories->find()->count() > 0){
+            $infoCategs = null;
             foreach ($categories as $key => $category){
                 //$LesQuota[] = $this->Dependencies->find('all')->where(['id_category1' => $category->id, 'id_category2' => $category->id])->toArray();
                 $infoCategs[$key]['quota'] = $this->Dependencies->find('all')->where(['id_category1' => $category->id, 'id_category2' => $category->id])->toArray();
+                $infoCategs[$key]['id_categ'] = $category->id;
                 $infoCategs[$key]['amount'] = $this->getStockByIdCategory($category->id);
             }
-            //debug($infoCategs);die();
-            if(isset($infoCategs))
+            
+            if(isset($infoCategs)){
                 foreach($infoCategs as $key => $infoCateg){
-                    $idCat = $infoCateg['quota'][0]['id_category1'];
-                    $quotaCat = $infoCateg['quota'][0]['quota'];
+                    $idCat = $infoCateg['id_categ'];
+                    $quotaCat = (isset($infoCateg['quota'][0]->quota)) ? $infoCateg['quota'][0]->quota : '-';
                     $lesQuotaView[$idCat] = $quotaCat;
                     $amountView[$idCat] = $infoCateg['amount'];
                 }
+            }
             $this->set(compact('lesQuotaView', 'amountView'));
         }
         //debug($lesQuotaView);die();
